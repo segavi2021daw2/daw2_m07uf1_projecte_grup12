@@ -118,6 +118,6 @@ if($_SESSION['user']=="admin"){
  </form>
  <!--<input type="button" value="Afegir producte" onclick="location.href='Compra.php'">-->
  <input type="button" value="Crear comandes" onclick="location.href='Compra.php'">
-<input type="button" value="Esborrar comanda" onclick="location.href='esbCom.html'">
+<input type="button" value="Esborrar comanda" onclick="location.href='esbCom.php'">
 <input type="button" value=" Gestió comandes" onclick="location.href='LecturaCom.php'">
  <a href="logout.php">Tancar Sessió</a>

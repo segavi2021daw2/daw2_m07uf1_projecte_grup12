@@ -1,13 +1,39 @@
 <?php
-	$dirComandes = "/xampp/htdocs/proyectofinal/";
-	if ($_SERVER['REQUEST_METHOD'] === 'DELETE') {
-		$nomFitxer = $_REQUEST["q"];
-		echo "<b>Comanda ID:</b> $nomFitxer<br>";
-		$nomCompletFitxer = $dirComandes.$nomFitxer;
-		if (file_exists($nomCompletFitxer)){
-			if (unlink($nomCompletFitxer)){
-				include("ok200.php");
-			}else include("error403.php");
-		}else include("error404.php");
-	} else include("error405.php");
+
+  session_start();  
+
+?>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>Anul·lació de comanda (mètode DELETE amb AJAX)</title>
+		<script language="javascript" src="EsbCom.js"></script>
+	</head>
+	<body>
+		<fieldset>
+			<legend>
+				<h1>Petició d'anul·lació de comanda</h1>
+			</legend>		
+			<form id="frmEsbCom">
+				<table>
+					<tr>
+						<td>Identificador de comanda:</td>
+						<td><input type="text" name="nomCom" id="nomCom" size="20"></td>
+					</tr>
+				</table>
+				<input type="button" name="bEsbCom" id="bEsbCom" value="Esborra Comanda" onclick="esbComanda();">
+				<input type="button" name="bNet" id="bNet" value="Neteja formulari" onclick="netForm();">
+			</form>
+		</fieldset>
+		<fieldset>
+			<legend>
+				<h1>Resposta a la petició</h1>
+			</legend>
+			<p id="resp"></p>
+		</fieldset>		
+		
+	</body>
+</html>
+
+  
 ?>

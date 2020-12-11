@@ -11,3 +11,6 @@ pepe|12345|pepe ramirez|03232|fwf|@gkgeg.com|000000000|131313|------------------
 pepe|12345|pepe ramirez|fkqpfkpeqgm|fwf|@gkgeg.com|04240240|131313|sol·licito esborrar el meu compte|
 danny|12345|danny medina|03232|fwf|@gkgeg.com|04240240|131313|---------------------------------------
 danny|123456|danny medina|03232|fwf|@gkgeg.com|04240240|131313|sol·licito esborrar el meu compte|
+oscar|12345|oscar gomez|03232|fwf|@gkgeg.com|04240240|131313|---------------------------------------
+
+paco|12|paco sanchez|03232|fwf|@gkgeg.com|04240240|131313|---------------------------------------

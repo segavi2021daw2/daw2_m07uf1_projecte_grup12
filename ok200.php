@@ -9,7 +9,7 @@
 	</head>
 	<body>
 		<h2>200 OK : La comanda s'ha esborrat amb èxit</h2>		
-		<a href="EsbCom.html"/><input type=button value='OK'></a>	
+		<a href="EsbCom.php"/><input type=button value='OK'></a>	
 	</body>
 </html>
 

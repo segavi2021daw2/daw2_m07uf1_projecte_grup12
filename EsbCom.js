@@ -5,7 +5,7 @@
 
 function esbComanda() {
 	// Variables locals
-	var urlCodi = "http://localhost/proyectofinal/EsbCom.php?q=";
+	var urlCodi = "http://localhost/php/EsbComandes.php?q=";
 	var metode = "DELETE";
 	// Dades rebudes d'HTML
 	var nomComanda = document.forms['frmEsbCom'].elements["nomCom"].value;
